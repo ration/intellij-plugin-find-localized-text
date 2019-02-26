@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>fi.iki.lahtela.find_text</id>
+  <name>Find Text searches for localized text in code</name>
+  <version>1.0</version>
+  <vendor email="lahtela@iki.fi" url="http://github.com/ration">Tatu Lahtela</vendor>
+
+  <description>Search for localized texts from e.g. messages.properties files and
+  search code with the attached localization keys</description>
+
+  <change-notes>
+    0.1  First beta version. Support for Spring property files.
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <action id="FindString.FindStringAction" class="intellij.plugin.find_localized_string.InputAction" text="Find _Localization Key With Localized Text"
+            description="Find String from localization file">
+      <add-to-group group-id="FindMenuGroup" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
