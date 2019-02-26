@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae12c082-00b3-41c8-a531-0401e04ed589" name="Default Changelist" comment="" />
+    <list default="true" id="ae12c082-00b3-41c8-a531-0401e04ed589" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +14,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/InputAction.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/TextInputDialog.java">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/TextInputDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
@@ -30,10 +23,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSources/iki/lahtela/find_string/SpringPropertyResolverTest.kt">
+        <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/SpringPropertyResolverTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="e#33#78#0" expanded="true" />
               </folding>
@@ -42,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSources/iki/lahtela/find_string/InputActionTest.kt">
+        <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/InputActionTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#33#129#0" expanded="true" />
               </folding>
@@ -54,6 +47,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -63,7 +68,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/LozalizedTextResolver.kt">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -72,9 +77,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/SpringPropertyResolver.kt">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="136">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#33#133#0" expanded="true" />
@@ -140,6 +145,9 @@
       <dir>C:\Users\Tatu Lahtela\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\lib\platform-impl.jar!\com\intellij\find\impl</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -153,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/iki/lahtela/find_string/SpringPropertyResolver.kt" />
         <option value="$PROJECT_DIR$/src/iki/lahtela/find_string/InputAction.kt" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,69 +184,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="find_localized_string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
-              <item name="TextInputDialog" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="testSources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intellij-plugin-find-localized-text" type="462c0819:PsiDirectoryNode" />
               <item name="testSources" type="462c0819:PsiDirectoryNode" />
-              <item name="find_string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="find_string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="find_localized_string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551213111138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551213403462" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -276,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.intellij.plugin.find_localized_string in find_string">
+  <component name="RunManager" selected="Plugin.Plugin">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -423,16 +421,11 @@
       <workItem from="1550823496721" duration="1999000" />
       <workItem from="1551185985673" duration="4704000" />
       <workItem from="1551210270970" duration="2477000" />
+      <workItem from="1551213053146" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="iki_lahtela_find_string_in_find_string - 2019.02.21 at 08h 58m 15s.xml">
-      <configuration name="iki.lahtela.find_string in find_string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="iki_lahtela_find_string_in_find_string - 2019.02.21 at 09h 01m 05s.xml">
-      <configuration name="iki.lahtela.find_string in find_string" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="iki_lahtela_find_string_in_find_string - 2019.02.21 at 09h 02m 50s.xml">
       <configuration name="iki.lahtela.find_string in find_string" configurationId="JUnit" />
     </history-entry>
@@ -457,14 +450,21 @@
     <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 21m 12s.xml">
       <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="intellij_plugin_find_localized_string_in_find_string - 2019.02.26 at 22h 32m 05s.xml">
+      <configuration name="intellij.plugin.find_localized_string in find_string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="intellij_plugin_find_localized_string_in_find_string - 2019.02.26 at 22h 34m 19s.xml">
+      <configuration name="intellij.plugin.find_localized_string in find_string" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30937000" />
+    <option name="totallyTimeSpent" value="31192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56828195" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56828195" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" sideWeight="0.43171805" side_tool="true" weight="0.26332623" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,7 +473,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50812566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,13 +548,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/project/Project.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnActionEvent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4386">
@@ -843,6 +836,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/TextInputDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/SpringPropertyResolverTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#33#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#33#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -864,61 +898,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSources/iki/lahtela/find_string/SpringPropertyResolverTest.kt">
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#33#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSources/iki/lahtela/find_string/InputActionTest.kt">
+    <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/InputActionTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#33#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/TextInputDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/LozalizedTextResolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/SpringPropertyResolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iki/lahtela/find_string/InputAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
