@@ -6,10 +6,13 @@ import com.intellij.find.findInProject.FindInProjectManager
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.application.ex.ClipboardUtil
+import com.intellij.openapi.fileEditor.impl.LoadTextUtil
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManager
+import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.psi.search.FilenameIndex
 import com.intellij.psi.search.GlobalSearchScope
+import org.apache.xml.resolver.apps.resolver
 import java.awt.Toolkit
 
 
@@ -17,7 +20,7 @@ import java.awt.Toolkit
  * Handler for the find with localized text action.
  */
 class InputAction : AnAction() {
-    private val resolver = SpringPropertyResolver()
+    private val resolvers = setOf(SpringPropertyResolver(), AndroidStringsFileResolver())
 
     override fun actionPerformed(event: AnActionEvent) {
         val dialog = TextInputDialog(getClipboardContents())
@@ -39,13 +42,21 @@ class InputAction : AnAction() {
 
     private fun findInFiles(needle: String) {
         val project = ProjectManager.getInstance().openProjects.first()
-        if (project != null && !project.isDisposed) {
-            val files = FilenameIndex.getAllFilesByExt(project, resolver.fileExt, GlobalSearchScope.projectScope(project)).toSet()
-            val result = files.flatMap { resolver.resolve(it, needle) }.toSet()
+        if (project?.isDisposed == false) {
+            val result = mutableSetOf<String>()
+            for (resolver in resolvers) {
+                val files = getLocalizationFiles(project, resolver)
+                result += files.flatMap { resolver.resolve(LoadTextUtil.loadText(it), Regex(needle)) }.toSet()
+            }
             if (result.isNotEmpty()) {
                 findFilesWithKeys(project, result)
             }
         }
+    }
+
+    private fun getLocalizationFiles(project: Project, resolver: LocalizedTextResolver): Set<VirtualFile> {
+        return FilenameIndex.getAllFilesByExt(project, resolver.fileExtension, GlobalSearchScope.projectScope(project)).
+                filter { it.name.contains(resolver.fileNamePattern) }.toSet()
     }
 
     private fun findFilesWithKeys(project: Project, needle: Set<String>) {

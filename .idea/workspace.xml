@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae12c082-00b3-41c8-a531-0401e04ed589" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/AndroidStringsFileResolverTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LocalizedTextResolver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +18,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/TextInputDialog.java">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LocalizedTextResolver.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/SpringPropertyResolverTest.kt">
+        <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/AndroidStringsFileResolverTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="367">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
-                <element signature="e#33#78#0" expanded="true" />
+                <element signature="e#47#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,80 +41,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/InputActionTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#33#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/AndroidStringsFileResolver.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="265">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
-                <element signature="e#33#133#0" expanded="true" />
+                <element signature="e#47#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/org/w3c/dom/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="292" column="24" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../intellij-community/platform/lang-api/src/com/intellij/find/FindManager.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/org/w3c/dom/NamedNodeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+            <state relative-caret-position="143">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../intellij-community/platform/lang-api/src/com/intellij/find/FindResult.java">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/kotlin-stdlib.jar!/kotlin/collections/collections.kotlin_builtins">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="143">
+              <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/javax/xml/xpath/XPathConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/javax/xml/xpath/XPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -139,6 +137,8 @@
       <find>byName</find>
       <find>virtual</find>
       <find>String</find>
+      <find>patt</find>
+      <find>lines()</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Tatu\git\demo</dir>
@@ -162,6 +162,13 @@
         <option value="$PROJECT_DIR$/src/iki/lahtela/find_string/InputAction.kt" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/AbstractResolver.kt" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LocalizedTextResolver.kt" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt" />
+        <option value="$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/AndroidStringsFileResolverTest.kt" />
+        <option value="$PROJECT_DIR$/src/intellij/plugin/find_localized_string/AndroidStringsFileResolver.kt" />
       </list>
     </option>
   </component>
@@ -225,6 +232,213 @@
               <item name="testSources" type="462c0819:PsiDirectoryNode" />
               <item name="find_localized_string" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="vfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="indexing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="fileEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="fileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="psi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="psi" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="xpath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellij-plugin-find-localized-text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA IU-183.5429.30 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="dom" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,7 +449,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551213403462" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551310554551" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -246,7 +460,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -259,6 +473,7 @@
       <recent name="" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="intellij.plugin.find_localized_string" />
       <recent name="iki.lahtela.find_string" />
     </key>
   </component>
@@ -281,50 +496,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringPropertyResolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidStringsFileResolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="find_string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iki.lahtela.find_string.*" />
+          <option name="PATTERN" value="intellij.plugin.find_localized_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iki.lahtela.find_string" />
-      <option name="MAIN_CLASS_NAME" value="iki.lahtela.find_string.SpringPropertyResolverTest" />
+      <option name="PACKAGE_NAME" value="intellij.plugin.find_localized_string" />
+      <option name="MAIN_CLASS_NAME" value="intellij.plugin.find_localized_string.AndroidStringsFileResolverTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringPropertyResolverTest.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidStringsFileResolverTest.extPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="find_string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iki.lahtela.find_string.*" />
+          <option name="PATTERN" value="intellij.plugin.find_localized_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iki.lahtela.find_string" />
-      <option name="MAIN_CLASS_NAME" value="iki.lahtela.find_string.SpringPropertyResolverTest" />
-      <option name="METHOD_NAME" value="constructor" />
+      <option name="PACKAGE_NAME" value="intellij.plugin.find_localized_string" />
+      <option name="MAIN_CLASS_NAME" value="intellij.plugin.find_localized_string.AndroidStringsFileResolverTest" />
+      <option name="METHOD_NAME" value="extPattern" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidStringsFileResolverTest.matchingLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="find_string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iki.lahtela.find_string.*" />
+          <option name="PATTERN" value="intellij.plugin.find_localized_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iki.lahtela.find_string" />
-      <option name="MAIN_CLASS_NAME" value="iki.lahtela.find_string.SpringPropertyResolverTest" />
-      <option name="METHOD_NAME" value="partiallyCorrectPattern" />
+      <option name="PACKAGE_NAME" value="intellij.plugin.find_localized_string" />
+      <option name="MAIN_CLASS_NAME" value="intellij.plugin.find_localized_string.AndroidStringsFileResolverTest" />
+      <option name="METHOD_NAME" value="matchingLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AndroidStringsFileResolverTest.resolve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="find_string" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intellij.plugin.find_localized_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="intellij.plugin.find_localized_string" />
+      <option name="MAIN_CLASS_NAME" value="intellij.plugin.find_localized_string.AndroidStringsFileResolverTest" />
+      <option name="METHOD_NAME" value="resolve" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -333,21 +565,6 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="iki.lahtela.find_string in find_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="find_string" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iki.lahtela.find_string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iki.lahtela.find_string" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -397,11 +614,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AndroidStringsFileResolverTest.matchingLine" />
+        <item itemvalue="JUnit.AndroidStringsFileResolverTest" />
+        <item itemvalue="JUnit.AndroidStringsFileResolverTest.resolve" />
+        <item itemvalue="JUnit.AndroidStringsFileResolverTest.extPattern" />
         <item itemvalue="JUnit.intellij.plugin.find_localized_string in find_string" />
-        <item itemvalue="JUnit.SpringPropertyResolverTest.partiallyCorrectPattern" />
-        <item itemvalue="JUnit.iki.lahtela.find_string in find_string" />
-        <item itemvalue="JUnit.SpringPropertyResolverTest" />
-        <item itemvalue="JUnit.SpringPropertyResolverTest.constructor" />
       </list>
     </recent_temporary>
   </component>
@@ -422,50 +639,51 @@
       <workItem from="1551185985673" duration="4704000" />
       <workItem from="1551210270970" duration="2477000" />
       <workItem from="1551213053146" duration="255000" />
+      <workItem from="1551301719591" duration="8526000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="iki_lahtela_find_string_in_find_string - 2019.02.21 at 09h 02m 50s.xml">
-      <configuration name="iki.lahtela.find_string in find_string" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 03m 57s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 09h 03m 42s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 05m 23s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 09h 03m 47s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 12m 43s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 16m 58s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 13m 00s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 17m 04s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 13m 24s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 17m 27s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 13m 53s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 19m 08s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 13m 57s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringPropertyResolverTest_partiallyCorrectPattern - 2019.02.21 at 22h 21m 12s.xml">
-      <configuration name="SpringPropertyResolverTest.partiallyCorrectPattern" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 14m 56s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="intellij_plugin_find_localized_string_in_find_string - 2019.02.26 at 22h 32m 05s.xml">
-      <configuration name="intellij.plugin.find_localized_string in find_string" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest - 2019.02.28 at 01h 20m 03s.xml">
+      <configuration name="AndroidStringsFileResolverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="intellij_plugin_find_localized_string_in_find_string - 2019.02.26 at 22h 34m 19s.xml">
-      <configuration name="intellij.plugin.find_localized_string in find_string" configurationId="JUnit" />
+    <history-entry file="AndroidStringsFileResolverTest_matchingLine - 2019.02.28 at 01h 34m 39s.xml">
+      <configuration name="AndroidStringsFileResolverTest.matchingLine" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31192000" />
+    <option name="totallyTimeSpent" value="39718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56828195" visible="true" weight="0.26599148" />
-      <window_info id="Structure" order="1" sideWeight="0.43171805" side_tool="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5670436" visible="true" weight="0.45309168" />
+      <window_info id="Structure" order="1" sideWeight="0.43295637" side_tool="true" visible="true" weight="0.45309168" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -473,7 +691,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50812566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,76 +766,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnActionEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4386">
-          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/find/FindManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/find/impl/FindManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5865">
-          <caret line="453" column="60" selection-start-line="453" selection-start-column="57" selection-end-line="453" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/find/FindResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/CommonDataKeys.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/find/FindModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7208">
-          <caret line="458" column="16" selection-start-line="458" selection-start-column="16" selection-end-line="458" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/search/SearchScope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/find/FindBundle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/find/impl/FindUI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/find/actions/FindInPathAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../intellij-community/platform/lang-impl/src/com/intellij/find/impl/FindManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -800,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/indexing-impl/src/com/intellij/psi/search/FilenameIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../intellij-community/platform/lang-impl/src/com/intellij/find/FindUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -829,20 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-impl/src/com/intellij/openapi/fileEditor/impl/LoadTextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7633">
-          <caret line="484" column="29" selection-start-line="484" selection-start-column="29" selection-end-line="484" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/TextInputDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -854,33 +981,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#33#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LozalizedTextResolver.kt">
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -898,30 +1005,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/indexing-api/src/com/intellij/util/indexing/IdFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/indexing-impl/src/com/intellij/psi/search/FilenameIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="e#7909#7910#0" expanded="true" />
+            <element signature="e#7979#7980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="164" column="68" selection-start-line="164" selection-start-column="68" selection-end-line="164" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../intellij-community/platform/core-impl/src/com/intellij/openapi/fileEditor/impl/LoadTextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="484" column="25" selection-start-line="484" selection-start-column="25" selection-end-line="484" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/AbstractResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/SpringPropertyResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/javax/xml/xpath/XPathConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/javax/xml/xpath/XPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/kotlin-stdlib.jar!/kotlin/collections/collections.kotlin_builtins">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/org/w3c/dom/NamedNodeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/org/w3c/dom/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="292" column="24" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/InputActionTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/LocalizedTextResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/InputAction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSources/intellij/plugin/find_localized_string/AndroidStringsFileResolverTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
-            <element signature="e#33#129#0" expanded="true" />
+            <element signature="e#47#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/intellij/plugin/find_localized_string/AndroidStringsFileResolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#47#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

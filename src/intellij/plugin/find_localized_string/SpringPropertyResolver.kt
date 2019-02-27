@@ -1,15 +1,11 @@
 package intellij.plugin.find_localized_string
 
-import com.intellij.openapi.fileEditor.impl.LoadTextUtil
-import com.intellij.openapi.vfs.VirtualFile
-
-class SpringPropertyResolver: LozalizedTextResolver {
+class SpringPropertyResolver: LocalizedTextResolver {
 
     private val propertySplitter = Regex("(.*?)=(.+?)")
 
-    override fun resolve(file: VirtualFile, text: String): Set<String> {
-        val rex = Regex(text)
-        return LoadTextUtil.loadText(file).lines().filter { it.contains(rex) }.mapNotNull { match(it) }.toSet()
+    override fun resolve(file: CharSequence, text: Regex): Set<String> {
+        return file.lines().filter { it.contains(text) }.mapNotNull { match(it) }.toSet()
     }
 
     fun match(text: String): String? {
@@ -20,7 +16,6 @@ class SpringPropertyResolver: LozalizedTextResolver {
         return null
     }
 
-    override val fileExt = "properties"
-
-
+    override val fileNamePattern = Regex("messages_?.*")
+    override val fileExtension: String = "properties"
 }
