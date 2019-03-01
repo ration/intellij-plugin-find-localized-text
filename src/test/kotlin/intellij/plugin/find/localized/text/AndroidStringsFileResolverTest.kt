@@ -1,4 +1,4 @@
-package intellij.plugin.find_localized_string
+package intellij.plugin.find.localized.text
 
 import org.junit.Assert
 import org.junit.Test

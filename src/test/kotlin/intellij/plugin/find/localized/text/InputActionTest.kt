@@ -1,4 +1,4 @@
-package intellij.plugin.find_localized_string
+package intellij.plugin.find.localized.text
 
 import com.intellij.testFramework.fixtures.LightCodeInsightFixtureTestCase
 import org.junit.Test

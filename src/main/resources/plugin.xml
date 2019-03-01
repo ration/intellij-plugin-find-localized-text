@@ -25,7 +25,7 @@
   </extensions>
 
   <actions>
-    <action id="FindString.FindStringAction" class="intellij.plugin.find_localized_string.InputAction" text="Find _Localization Key With Localized Text"
+    <action id="FindString.FindStringAction" class="intellij.plugin.find.localized.text.InputAction" text="Find _Localization Key With Localized Text"
             description="Find String from localization file">
       <add-to-group group-id="FindMenuGroup" anchor="last"/>
     </action>

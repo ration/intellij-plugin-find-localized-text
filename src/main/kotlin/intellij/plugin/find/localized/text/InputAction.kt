@@ -1,4 +1,4 @@
-package intellij.plugin.find_localized_string
+package intellij.plugin.find.localized.text
 
 import com.intellij.find.FindManager
 import com.intellij.find.FindModel
@@ -12,7 +12,6 @@ import com.intellij.openapi.project.ProjectManager
 import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.psi.search.FilenameIndex
 import com.intellij.psi.search.GlobalSearchScope
-import org.apache.xml.resolver.apps.resolver
 import java.awt.Toolkit
 
 
