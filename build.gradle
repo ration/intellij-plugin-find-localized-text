@@ -49,3 +49,13 @@ dependencies {
 apply plugin: 'org.jetbrains.intellij'
 apply plugin: "idea"
 apply plugin: "kotlin"
+
+
+sourceSets {
+    main {
+        resources.srcDir 'resources'
+    }
+    test {
+        java.srcDir 'test'
+    }
+}
